@@ -49,23 +49,22 @@ header{
 
 .blackbox{
     background-color: black;
-     height: 700px;
 }
 
 .blackimg{
-    width: 70%;
+    width: 77%;
     height: 760px;
 }
 
 .boxcontainer{
     display: flex;
     justify-content: space-between;
-    /* width: 80%; */
+    width: 90%;
+    margin-left: 110px;
 }
 
 .texteds{
     padding-top: 260px;
-    margin-left: 150px;
 }
 
 .texteds h2{
@@ -94,39 +93,79 @@ header{
 }
 .box{
     display: flex;
-    justify-content: space-between;
-    padding-top: 120px;
+    margin-left: 150px;
+    gap: 60px;
+    padding-top: 100px;
+    width: 90%;
 }
 
 .child1{
-    width: 20%;
-    height: 350px;
+    width: 17%;
+    height: 380px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
 }
 
-img{
-    width: 100%;
-    height: 250px;
+.childimg{
+    width: 80%;
+    height: 200px;
+    margin-left: 26px;
+    padding-top: 30px;
+}
+
+.childimg:hover{
+    transform:scale(1.1);
+    cursor: pointer;
 }
 
 .child2{
-    width: 20%;
-    height: 350px;
+    width: 17%;
+    height: 380px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
 }
 
 .child3{
-    width: 20%;
-    height: 350px;
+    width: 17%;
+    height: 380px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
 }
 
 .child4{
-    width: 20%;
-    height: 350px;
+    width: 17%;
+    height: 380px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;  
+}
+
+.new{
+    text-align: center; 
+    margin-top: 40px;
+    font-size: 59px;
+    font-family: sans-serif;
+}
+
+.phone{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.parag{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.btne{
+    margin-top: 16px;
+    margin-left: 59px;
+    border-radius: 16px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 14px 37px;
 }
