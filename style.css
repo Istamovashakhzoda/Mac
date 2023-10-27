@@ -184,3 +184,51 @@ header{
     height: 480px;
     border-radius: 12px;
 }
+
+.main img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.apple{
+    text-align: center;
+    font-size: 59px;
+    margin-top: 83px;
+    margin-bottom: 34px;
+    font-family: sans-serif;
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin-left: 90px;
+}
+
+.boxin{
+    width: 22%;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.boxin:hover{
+    cursor: pointer;
+}
+
+.boxin h2{
+    margin:11px;
+    padding-top: 11px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(28, 28, 28);
+}
+
+.boxin h2:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.boxin img{
+    width: 100%;
+}
