@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-/*  
+
 body{
     box-sizing: border-box;
 }
@@ -231,13 +231,13 @@ header{
 
 .boxin img{
     width: 100%;
-} */
+} 
 
 
 
 
 
-.mainbox{
+/* .mainbox{
    display: flex;
    justify-content: space-between;
    margin: 90px;
@@ -303,4 +303,4 @@ header{
 
 .child1:hover{
     cursor: pointer;
-}
+} */
