@@ -232,3 +232,59 @@ header{
 .boxin img{
     width: 100%;
 } 
+
+.boxinn{
+    width: 19%;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.boxinn:hover{
+    cursor: pointer;
+}
+
+.boxinn h2{
+    margin:11px;
+    padding-top: 11px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(28, 28, 28);
+}
+
+.boxinn h2:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.boxinn img{
+    width: 100%;
+} 
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.boxin img{
+    height: 180px;
+}
+
+.aks{
+    text-align: center;
+    font-size: 49px;
+    margin-top: 90px;
+}
+
+.containerr2{
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin-left: 90px;
+    /* margin-top: 90px; */
+}
